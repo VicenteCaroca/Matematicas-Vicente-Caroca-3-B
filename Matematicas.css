@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #23466d;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #23466d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #dce5ef;
+    padding-bottom: 7px;
+}
+
+h3 {
+    color: #315f8b;
+    margin: 12px 0 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #315f8b;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #23466d;
+}
+
+#valor-b,
+#valor-c {
+    color: #1769aa;
+    font-size: 20px;
+}
+
+#expresion,
+#expresion-geogebra {
+    color: #1769aa;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#resultado.afín {
+    background-color: #fff4e5;
+}
+
+.propiedad {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f4f7fa;
+    border-left: 3px solid #315f8b;
+}
+
+.propiedad h3 {
+    margin-top: 0;
+}
+
+svg {
+    display: block;
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+.rejilla {
+    stroke: #e2e2e2;
+    stroke-width: 1;
+}
+
+.eje {
+    stroke: #555;
+    stroke-width: 1.8;
+}
+
+.etiqueta-eje {
+    fill: #555;
+    font-size: 11px;
+}
+
+#recta {
+    stroke: #1769aa;
+    stroke-width: 4;
+}
+
+#punto-origen,
+#punto-corte {
+    fill: #d68b2d;
+    stroke: white;
+    stroke-width: 2;
+}
+
+a {
+    display: inline-block;
+    background-color: #315f8b;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+a:hover {
+    background-color: #23466d;
+}
+
+input {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #23466d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+}
+

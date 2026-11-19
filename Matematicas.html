@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones lineales y afines</title>
+    <link rel="stylesheet" href="Matematicas.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MATEMATICAS</h1>
+        <p>Aprende con la mejor pagina web de matemáticas</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Introducción</h2>
+            <p>
+                En esta página vamos a conocer las funciones lineales y afines,
+                sus características y la forma en que se representan en una gráfica.
+            </p>
+        </section>
+
+        <section>
+            <h2>Generador de funciones</h2>
+
+            <p>Valor de b: <strong id="valor-b">0</strong></p>
+            <p>Valor de c: <strong id="valor-c">0</strong></p>
+
+            <button id="boton-generar">Generar función</button>
+        </section>
+
+        <section>
+            <h2>Resultado</h2>
+
+            <h3 id="tipo-funcion">Esperando resultado...</h3>
+            <p id="expresion">f(x) = 0x</p>
+            <p id="condicion">Aquí aparecerá la clasificación.</p>
+        </section>
+
+        <section>
+            <h2>Tipos de funciones</h2>
+
+            <h3>Función lineal</h3>
+            <p>f(x) = bx</p>
+            <p>Pasa por el origen y su valor de c es cero.</p>
+
+            <h3>Función afín</h3>
+            <p>f(x) = bx + c</p>
+            <p>No pasa por el origen cuando c es diferente de cero.</p>
+        </section>
+
+        <section>
+            <h2>Propiedades</h2>
+            <div id="propiedades"></div>
+        </section>
+
+        <section>
+            <h2>Gráfica de la función</h2>
+
+            <svg viewBox="0 0 600 400" role="img" aria-label="Gráfica de la función">
+                <g id="rejilla"></g>
+                <g id="ejes"></g>
+                <line id="recta" x1="0" y1="200" x2="600" y2="200"/>
+                <circle id="punto-origen" cx="300" cy="200" r="0"/>
+                <circle id="punto-corte" cx="300" cy="200" r="0"/>
+            </svg>
+
+            <p id="descripcion-grafica"></p>
+        </section>
+
+        <section>
+            <h2>GeoGebra</h2>
+
+            <p>También podemos comprobar las funciones en GeoGebra.</p>
+            <p id="expresion-geogebra">f(x) = 0x</p>
+
+            <a href="https://www.geogebra.org/graphing" target="_blank" rel="noopener noreferrer">
+                Abrir GeoGebra
+            </a>
+
+            <h3>Seleccionar archivo</h3>
+            <input type="file" id="archivo-geogebra" accept=".ggb">
+            <p id="nombre-archivo">No has seleccionado ningún archivo.</p>
+        </section>
+
+        <section>
+            <h2>Conclusión</h2>
+            <p>
+                Las funciones lineales y afines nos ayudan a comprender
+                cómo se relacionan dos variables y cómo se representan
+                mediante una línea recta.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto de Matemáticas - Funciones lineales y afines</p>
+    </footer>
+
+    <script src="Matematicas.js"></script>
+
+</body>
+</html>
